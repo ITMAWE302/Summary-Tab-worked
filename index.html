@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<meta charset="UTF-8">
+	<title>Vertical Timeline Animation HTML, CSS & jQuery</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- STARFIELD -->
+  <div id="starfield-container">
+    <div id="starfield"></div>
+  </div>
+
+  <!-- NAV BAR -->
+  <div id="nav-bar">
+    <div class="nav-option"><a href="Home.html">Home</a></div>
+    <div class="nav-option"><a href="Layers.html">Layers</a></div>
+    <div class="nav-option selected"><a href="Summary.html">Summary</a></div>
+    <div class="nav-option"><a href="AboutUs.html">About Us</a></div>
+  </div>
+
+<!-- TITLE-->
+  <div class="TopTitle">
+    <div class="FirstTitle">This is why</div>
+    <div class="secTitle">they let me cook 🔥</div>
+  </div>
+
+<div class="Main">  
+  <section class="Main-section">
+    <div class="Container">
+      <div class="js-timeline ag-timeline">
+	  
+		    <!-- Progress Bar Line Code-->
+        <div class="js-timeline_line ag-timeline_line">
+          <div class="js-timeline_line-progress ag-timeline_line-progress"></div>
+        </div>
+		
+        <div class="ag-timeline_list">
+		
+		      <!-- Left Batman Box -->
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              <!-- Number Code-->
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">01</div>
+              </div>
+
+              <!-- Name Code-->
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Exosphere</div>
+              </div>
+
+              <!-- Description Code -->
+              <div class="Description-box">
+                <div class="Description">The outermost layer gradually merges with the vacuum of space. It consists of very thin gases and is where satellites and space debris orbit the Earth.</div>
+              </div>
+            </div>
+
+            <!-- Image Code-->
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="batman.jpg" class="ag-timeline-card_img"/>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+		      <!-- Right Deathstroke Box -->
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              <!-- Name Code-->
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Thermosphere</div>
+              </div>
+
+              <!-- Number Code-->
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">02</div>
+              </div>
+              <div class="Description-boxs">
+                <div class="Descriptions"> This layer contains very few gas molecules and is where the International Space Station orbits. Temperatures here can reach thousands of degrees Celsius.</div>
+              </div>
+            </div>
+
+            <!-- Image Code-->
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="Deathstroke.jpg" class="ag-timeline-card_img" />
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+
+          <!-- Left Batman Box -->
+          <div class="js-timeline_item ag-timeline_item">
+            <div class="ag-timeline-card_box">
+              <!-- Number Code-->
+              <div class="js-timeline-card_point-box ag-timeline-card_point-box">
+                <div class="ag-timeline-card_point">01</div>
+              </div>
+
+              <!-- Name Code-->
+              <div class="ag-timeline-card_meta-box">
+                <div class="ag-timeline-card_meta">Exosphere</div>
+              </div>
+
+              <!-- Description Code -->
+              <div class="Description-box">
+                <div class="Description">The outermost layer gradually merges with the vacuum of space. It consists of very thin gases and is where satellites and space debris orbit the Earth.</div>
+              </div>
+            </div>
+
+            <!-- Image Code-->
+            <div class="ag-timeline-card_item">
+              <div class="ag-timeline-card_inner">
+                <div class="ag-timeline-card_img-box">
+                  <img src="batman.jpg" class="ag-timeline-card_img"/>
+                </div>
+              </div>
+              <div class="ag-timeline-card_arrow"></div>
+            </div>
+          </div>
+          
+          <!-- ADD THE OTHER TIMELINE ITEMS HERE -->
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+<script  src="./script.js"></script>
+
+</body>
+</html>
